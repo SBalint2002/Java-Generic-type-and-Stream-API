@@ -1,5 +1,7 @@
 package hu.petrik;
 
+import hu.petrik.Feladatok.Buszok;
+import hu.petrik.Feladatok.SzobaKerekpar;
 import hu.petrik.Halmaz.Set;
 
 public class Main {
@@ -17,5 +19,9 @@ public class Main {
 
         intSet.remove(8);
         System.out.println(intSet);
+
+        SzobaKerekpar.Run();
+
+        Buszok.Run();
     }
 }
